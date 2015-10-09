@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'mongo'
 
-load './class_test.rb'
+load './catawiki_item_class.rb'
 
 distilleries = open('distilleries').read.split(/\n/)
 
